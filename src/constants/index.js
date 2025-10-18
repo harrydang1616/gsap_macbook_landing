@@ -1,4 +1,4 @@
-export const navLinks = [
+const navLinks = [
   { label: "Store" },
   { label: "Mac" },
   { label: "iPhone" },
@@ -7,7 +7,7 @@ export const navLinks = [
   { label: "AirPods" },
 ];
 
-export const noChangeParts = [
+const noChangeParts = [
   "Object_84",
   "Object_37",
   "Object_34",
@@ -128,12 +128,12 @@ const footerLinks = [
   { label: "Site Map", link: "#" },
 ];
 
-// export {
-//   features,
-//   featureSequence,
-//   footerLinks,
-//   navLinks,
-//   noChangeParts,
-//   performanceImages,
-//   performanceImgPositions,
-// };
+export {
+  features,
+  featureSequence,
+  footerLinks,
+  navLinks,
+  noChangeParts,
+  performanceImages,
+  performanceImgPositions,
+};

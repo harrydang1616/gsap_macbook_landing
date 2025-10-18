@@ -1,8 +1,13 @@
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import ProductViewer from "./components/ProductViewer";
-import gsap from "gsap";
-import { ScrollTrigger, SplitText } from "gsap/all";
+import ShowCase from "./components/ShowCase";
+import Performance from "./components/Performance";
+import Features from "./components/Features.jsx";
+import Highlights from "./components/Highlights.jsx";
+import Footer from "./components/Footer.jsx";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -12,6 +17,11 @@ const App = () => {
       <NavBar />
       <Hero />
       <ProductViewer />
+      <ShowCase />
+      <Performance />
+      <Features />
+      <Highlights />
+      <Footer />
     </main>
   );
 };
